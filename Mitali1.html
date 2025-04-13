@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitali Garg | Resume</title>
+  <style>
+    :root {
+      --primary-color: #002b5b;
+      --secondary-color: #f7f9fc;
+      --text-color: #333;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .project, .skill, .cert, .edu {
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    .toggle-theme {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: var(--primary-color);
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      z-index: 1000;
+    }
+    .dark-mode {
+      --primary-color: #f7f9fc;
+      --secondary-color: #1c1c1c;
+      --text-color: #f7f7f7;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme" onclick="toggleTheme()">Toggle Dark Mode</button>
+  <header>
+    <h1>Mitali Garg</h1>
+    <p>B.Tech Computer Science | Final Year | Poornima University</p>
+  </header>  <section>
+    <h2>About Me</h2>
+    <p>
+        Dedicated and detail-oriented B.Tech student specializing in Computer Engineering with a strong foundation in programming,linux and web development and problem-solving.
+    </p>
+  </section>  <section>
+    <h2>Skills</h2>
+    <div class="skill">Languages: Python  </div>
+    <div class="skill">Web: HTML, CSS, JavaScript </div>
+    <div class="skill">Tools: Visual studio code,Jupyter Notebook, Git, Basic SQL </div>
+    <div class="skill">Operating system and cloud: Windows, Linux/Unix, Basic AWS cloud </div>
+  </section>  <section>
+    
+ <section>
+    <h2>Certifications</h2>
+    <div class="cert">NPTEL - cloud computing </div>
+    <div class="cert">Microsoft - Aisa AI odssey challenge</div>
+    <div class="cert">Udemy - Java Fundamental Course For Beginners </div>
+    <div class="cert">Great Learning - Front End Development </div>
+  </section>  <section>
+    <h2>Education</h2>
+    <div class="edu">B.Tech in Computer Science (Final Year)</div>
+    <div class="edu">Poornima University, Jaipur</div>
+    <div class="edu">Secondary Education,RBSE (2019 - 20) </div>
+    <div class="edu">Senior Secondary Education,RBSE (2021 - 22)</div>
+  </section>  <section>
+    <h2>Contact</h2>
+    <p>Email: mitaligarg821@gmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/mitali-garg" target="_blank">https://linkedin.com/in/mitali-garg-5b7b4324b</a></p>
+  </section>  <footer>
+    &copy; 2025 Mitali Garg | Designed with dedication
+  </footer>  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script></body>
+</html>
